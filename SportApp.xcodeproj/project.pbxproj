@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		842567AB277C92AF006A112E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567AA277C92AF006A112E /* AppDelegate.swift */; };
 		842567AD277C92AF006A112E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567AC277C92AF006A112E /* SceneDelegate.swift */; };
-		842567AF277C92AF006A112E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567AE277C92AF006A112E /* ViewController.swift */; };
 		842567B2277C92AF006A112E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842567B0277C92AF006A112E /* Main.storyboard */; };
 		842567B4277C92B0006A112E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842567B3277C92B0006A112E /* Assets.xcassets */; };
 		842567B7277C92B0006A112E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842567B5277C92B0006A112E /* LaunchScreen.storyboard */; };
+		842567BF277C9536006A112E /* SportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567BE277C9536006A112E /* SportTableViewController.swift */; };
+		842567C1277CAD03006A112E /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567C0277CAD03006A112E /* PlayerTableViewController.swift */; };
+		842567C7277CAF10006A112E /* sportApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 842567C5277CAF10006A112E /* sportApp.xcdatamodeld */; };
+		842567CB277CCDCE006A112E /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567CA277CCDCE006A112E /* SportTableViewCell.swift */; };
+		842567CD277CCF89006A112E /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567CC277CCF89006A112E /* Delegate.swift */; };
+		842567CF277D2139006A112E /* DelegateBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842567CE277D2139006A112E /* DelegateBack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		842567A7277C92AF006A112E /* SportApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842567AA277C92AF006A112E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842567AC277C92AF006A112E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		842567AE277C92AF006A112E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		842567B1277C92AF006A112E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842567B3277C92B0006A112E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842567B6277C92B0006A112E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842567B8277C92B0006A112E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842567BE277C9536006A112E /* SportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewController.swift; sourceTree = "<group>"; };
+		842567C0277CAD03006A112E /* PlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		842567C6277CAF10006A112E /* sportApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sportApp.xcdatamodel; sourceTree = "<group>"; };
+		842567CA277CCDCE006A112E /* SportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
+		842567CC277CCF89006A112E /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		842567CE277D2139006A112E /* DelegateBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateBack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				842567AA277C92AF006A112E /* AppDelegate.swift */,
 				842567AC277C92AF006A112E /* SceneDelegate.swift */,
-				842567AE277C92AF006A112E /* ViewController.swift */,
 				842567B0277C92AF006A112E /* Main.storyboard */,
 				842567B3277C92B0006A112E /* Assets.xcassets */,
 				842567B5277C92B0006A112E /* LaunchScreen.storyboard */,
 				842567B8277C92B0006A112E /* Info.plist */,
+				842567BE277C9536006A112E /* SportTableViewController.swift */,
+				842567C0277CAD03006A112E /* PlayerTableViewController.swift */,
+				842567C5277CAF10006A112E /* sportApp.xcdatamodeld */,
+				842567CA277CCDCE006A112E /* SportTableViewCell.swift */,
+				842567CC277CCF89006A112E /* Delegate.swift */,
+				842567CE277D2139006A112E /* DelegateBack.swift */,
 			);
 			path = SportApp;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842567AF277C92AF006A112E /* ViewController.swift in Sources */,
+				842567CB277CCDCE006A112E /* SportTableViewCell.swift in Sources */,
+				842567CF277D2139006A112E /* DelegateBack.swift in Sources */,
+				842567BF277C9536006A112E /* SportTableViewController.swift in Sources */,
 				842567AB277C92AF006A112E /* AppDelegate.swift in Sources */,
+				842567CD277CCF89006A112E /* Delegate.swift in Sources */,
+				842567C1277CAD03006A112E /* PlayerTableViewController.swift in Sources */,
+				842567C7277CAF10006A112E /* sportApp.xcdatamodeld in Sources */,
 				842567AD277C92AF006A112E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +314,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +342,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +380,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		842567C5277CAF10006A112E /* sportApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				842567C6277CAF10006A112E /* sportApp.xcdatamodel */,
+			);
+			currentVersion = 842567C6277CAF10006A112E /* sportApp.xcdatamodel */;
+			path = sportApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8425679F277C92AF006A112E /* Project object */;
 }
